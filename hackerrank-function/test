@@ -1,0 +1,13 @@
+import delphixpy
+import requests
+from delphixpy.delphix_engine import DelphixEngine
+engine = DelphixEngine("10.43.39.138", "admin", "delphix", "DOMAIN")  # Instead of DOMAIN, use SYSTEM if you are using the sysadmin user.
+print(engine.API_VERSION)
+print(engine.create_session())
+help engine.create_session()
+
+b = requests.get("http://10.43.39.138/resources/json/delphix/about", auth=('admin', 'delphix'))
+if b.status_code == 200:
+    print(b.json())
+
+

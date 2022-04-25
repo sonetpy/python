@@ -1,0 +1,22 @@
+
+[{
+"Name" : "Bob",
+"City" : "San Diego",
+"State" : "CA"
+},
+{
+"Name" : "Sue",
+"City" : "San Francisco",
+"State" : "CA"
+},
+{
+"Name" : "Ted",
+"City" : "New York",
+"State" : "NY"
+},
+{
+"Name" : "Joe",
+"City" : "Miami",
+"State" : "FL"
+}]
+
