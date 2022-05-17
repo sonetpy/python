@@ -1,0 +1,20 @@
+import requests
+response = requests.get(url="http://api.open-notify.org/iss-now.json")
+# print(response)
+# print(response.status_code)
+data = response.json()
+print(data)
+longitude = response.json()['iss_position']['longitude']
+print(longitude)
+latitude = response.json()['iss_position']['latitude']
+print(latitude)
+iss_position = (longitude, latitude)
+print(iss_position)
+print()
+print(response.ok, "\n")
+print(response.status_code, "\n")
+print(response.text, "\n")
+print(response.content, "\n")
+print(response.json())
+#print(json.dumps(response.json(), indent=4))
+print(response.json().keys())
