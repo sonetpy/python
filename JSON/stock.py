@@ -48,6 +48,8 @@ for i in day_range:
     #print(response.json()['Time Series (Daily)'][i]['4. close'])
     lst.append(response.json()['Time Series (Daily)'][i]['4. close'])
     index = index + 1
+    # appending the list and breaking at once it is more than 2 appends. we don't need more.
+    # because we need to know the difference between previous day and closing day value
     if index > 1:
         break
 
