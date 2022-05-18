@@ -12,8 +12,12 @@ params = {
     ,'dep_iata': dep_iata
     ,'arr_iata': arr_iata
 }
-api_result = requests.get('https://app.goflightlabs.com/flights',params)
-
-data = api_result.json()
-print(json.dumps(data, indent=4))
-json_str = json.dumps(data)
+response = requests.get('https://app.goflightlabs.com/flights',params)
+# You must check response.raise_for_status() or response.status_code before parsing JSON 
+# because the successful call to response.json() does not indicate the success of the request.
+print(response.status_code)
+json_response = response.json()
+#print(json.dumps(data, indent=4))
+print("Print each key-value pair from JSON response")
+for key, value in json_response.items():
+    print(key, ":", value)
