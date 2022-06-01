@@ -7,6 +7,7 @@ If user enters the keyword "reservation" as command then it should invoke the cl
 5. user selects the flight details and save it in postgres db and it will give a unique id.
 6. user can retrive the booking details just by entering the the unique id. eg. : $ reservation <booking id>
 '''
+import airlines
 class Reservation:
     def __init__(self,pax_name,pax_age,pax_sex,from_dest,to_dest,date_time):
         self.pax_name=pax_name
@@ -17,7 +18,8 @@ class Reservation:
         self.date_time=date_time
 
     def flight_api():
-        return 'flight api'
+        
+        
 
 def passenger_details():
     print('Name: ', res.pax_name)
