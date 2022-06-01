@@ -101,5 +101,7 @@ for i in range(5):
     print (dic[i]['phone'])
     print (dic[i]['name'])
 
+for j in range(len(dic)):
+  print(dic[j]['name'])
 
 

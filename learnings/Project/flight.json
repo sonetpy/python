@@ -1,0 +1,974 @@
+[
+    {
+        "flight_date": "2022-05-31",
+        "flight_status": "active",
+        "departure": {
+            "airport": "Indira Gandhi International",
+            "timezone": "Asia/Kolkata",
+            "iata": "DEL",
+            "icao": "VIDP",
+            "terminal": "2",
+            "gate": "21",
+            "delay": 14,
+            "scheduled": "2022-05-31T13:25:00+00:00",
+            "estimated": "2022-05-31T13:25:00+00:00",
+            "actual": "2022-05-31T13:38:00+00:00",
+            "estimated_runway": "2022-05-31T13:38:00+00:00",
+            "actual_runway": "2022-05-31T13:38:00+00:00"
+        },
+        "arrival": {
+            "airport": "Patna",
+            "timezone": "Asia/Kolkata",
+            "iata": "PAT",
+            "icao": "VEPT",
+            "terminal": "3",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2022-05-31T15:00:00+00:00",
+            "estimated": "2022-05-31T15:00:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "IndiGo",
+            "iata": "6E",
+            "icao": "IGO"
+        },
+        "flight": {
+            "number": "2485",
+            "iata": "6E2485",
+            "icao": "IGO2485",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2022-05-31",
+        "flight_status": "active",
+        "departure": {
+            "airport": "Indira Gandhi International",
+            "timezone": "Asia/Kolkata",
+            "iata": "DEL",
+            "icao": "VIDP",
+            "terminal": "3",
+            "gate": "31A",
+            "delay": null,
+            "scheduled": "2022-05-31T13:45:00+00:00",
+            "estimated": "2022-05-31T13:45:00+00:00",
+            "actual": "2022-05-31T13:44:00+00:00",
+            "estimated_runway": "2022-05-31T13:44:00+00:00",
+            "actual_runway": "2022-05-31T13:44:00+00:00"
+        },
+        "arrival": {
+            "airport": "Patna",
+            "timezone": "Asia/Kolkata",
+            "iata": "PAT",
+            "icao": "VEPT",
+            "terminal": "3",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2022-05-31T15:25:00+00:00",
+            "estimated": "2022-05-31T15:25:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Air India",
+            "iata": "AI",
+            "icao": "AIC"
+        },
+        "flight": {
+            "number": "407",
+            "iata": "AI407",
+            "icao": "AIC407",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2022-05-29",
+        "flight_status": "active",
+        "departure": {
+            "airport": "Indira Gandhi International",
+            "timezone": "Asia/Kolkata",
+            "iata": "DEL",
+            "icao": "VIDP",
+            "terminal": "2",
+            "gate": "20",
+            "delay": null,
+            "scheduled": "2022-05-29T06:30:00+00:00",
+            "estimated": "2022-05-29T06:30:00+00:00",
+            "actual": "2022-05-29T06:28:00+00:00",
+            "estimated_runway": "2022-05-29T06:28:00+00:00",
+            "actual_runway": "2022-05-29T06:28:00+00:00"
+        },
+        "arrival": {
+            "airport": "Patna",
+            "timezone": "Asia/Kolkata",
+            "iata": "PAT",
+            "icao": "VEPT",
+            "terminal": "3",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2022-05-29T08:05:00+00:00",
+            "estimated": "2022-05-29T08:05:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "IndiGo",
+            "iata": "6E",
+            "icao": "IGO"
+        },
+        "flight": {
+            "number": "2022",
+            "iata": "6E2022",
+            "icao": "IGO2022",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2022-05-25",
+        "flight_status": "active",
+        "departure": {
+            "airport": "Indira Gandhi International",
+            "timezone": "Asia/Kolkata",
+            "iata": "DEL",
+            "icao": "VIDP",
+            "terminal": "2",
+            "gate": "233",
+            "delay": 30,
+            "scheduled": "2022-05-25T08:35:00+00:00",
+            "estimated": "2022-05-25T08:35:00+00:00",
+            "actual": "2022-05-25T09:05:00+00:00",
+            "estimated_runway": "2022-05-25T09:05:00+00:00",
+            "actual_runway": "2022-05-25T09:05:00+00:00"
+        },
+        "arrival": {
+            "airport": "Patna",
+            "timezone": "Asia/Kolkata",
+            "iata": "PAT",
+            "icao": "VEPT",
+            "terminal": "3",
+            "gate": null,
+            "baggage": null,
+            "delay": 15,
+            "scheduled": "2022-05-25T10:10:00+00:00",
+            "estimated": "2022-05-25T10:10:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "GoAir",
+            "iata": "G8",
+            "icao": "GOW"
+        },
+        "flight": {
+            "number": "165",
+            "iata": "G8165",
+            "icao": "GOW165",
+            "codeshared": null
+        },
+        "aircraft": {
+            "registration": "VT-WJJ",
+            "iata": "A20N",
+            "icao": "A20N",
+            "icao24": "801391"
+        },
+        "live": {
+            "updated": "2022-05-26T03:47:59+00:00",
+            "latitude": 28.13,
+            "longitude": 77.52,
+            "altitude": 10637.5,
+            "direction": 113.18,
+            "speed_horizontal": 856.224,
+            "speed_vertical": 15.228,
+            "is_ground": false
+        }
+    },
+    {
+        "flight_date": "2022-05-25",
+        "flight_status": "active",
+        "departure": {
+            "airport": "Indira Gandhi International",
+            "timezone": "Asia/Kolkata",
+            "iata": "DEL",
+            "icao": "VIDP",
+            "terminal": "2",
+            "gate": "202",
+            "delay": 22,
+            "scheduled": "2022-05-25T11:30:00+00:00",
+            "estimated": "2022-05-25T11:30:00+00:00",
+            "actual": "2022-05-25T11:51:00+00:00",
+            "estimated_runway": "2022-05-25T11:51:00+00:00",
+            "actual_runway": "2022-05-25T11:51:00+00:00"
+        },
+        "arrival": {
+            "airport": "Patna",
+            "timezone": "Asia/Kolkata",
+            "iata": "PAT",
+            "icao": "VEPT",
+            "terminal": "3",
+            "gate": null,
+            "baggage": null,
+            "delay": 6,
+            "scheduled": "2022-05-25T13:05:00+00:00",
+            "estimated": "2022-05-25T13:05:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "FlexFlight",
+            "iata": "W2",
+            "icao": "FXT"
+        },
+        "flight": {
+            "number": "9211",
+            "iata": "W29211",
+            "icao": "FXT9211",
+            "codeshared": {
+                "airline_name": "goair",
+                "airline_iata": "g8",
+                "airline_icao": "gow",
+                "flight_number": "2511",
+                "flight_iata": "g82511",
+                "flight_icao": "gow2511"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2022-05-25",
+        "flight_status": "active",
+        "departure": {
+            "airport": "Indira Gandhi International",
+            "timezone": "Asia/Kolkata",
+            "iata": "DEL",
+            "icao": "VIDP",
+            "terminal": "2",
+            "gate": "202",
+            "delay": 22,
+            "scheduled": "2022-05-25T11:30:00+00:00",
+            "estimated": "2022-05-25T11:30:00+00:00",
+            "actual": "2022-05-25T11:51:00+00:00",
+            "estimated_runway": "2022-05-25T11:51:00+00:00",
+            "actual_runway": "2022-05-25T11:51:00+00:00"
+        },
+        "arrival": {
+            "airport": "Patna",
+            "timezone": "Asia/Kolkata",
+            "iata": "PAT",
+            "icao": "VEPT",
+            "terminal": "3",
+            "gate": null,
+            "baggage": null,
+            "delay": 6,
+            "scheduled": "2022-05-25T13:05:00+00:00",
+            "estimated": "2022-05-25T13:05:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "GoAir",
+            "iata": "G8",
+            "icao": "GOW"
+        },
+        "flight": {
+            "number": "2511",
+            "iata": "G82511",
+            "icao": "GOW2511",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2022-05-25",
+        "flight_status": "active",
+        "departure": {
+            "airport": "Indira Gandhi International",
+            "timezone": "Asia/Kolkata",
+            "iata": "DEL",
+            "icao": "VIDP",
+            "terminal": "2",
+            "gate": "34",
+            "delay": 10,
+            "scheduled": "2022-05-25T12:25:00+00:00",
+            "estimated": "2022-05-25T12:25:00+00:00",
+            "actual": "2022-05-25T12:35:00+00:00",
+            "estimated_runway": "2022-05-25T12:35:00+00:00",
+            "actual_runway": "2022-05-25T12:35:00+00:00"
+        },
+        "arrival": {
+            "airport": "Patna",
+            "timezone": "Asia/Kolkata",
+            "iata": "PAT",
+            "icao": "VEPT",
+            "terminal": "3",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2022-05-25T13:55:00+00:00",
+            "estimated": "2022-05-25T13:55:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "IndiGo",
+            "iata": "6E",
+            "icao": "IGO"
+        },
+        "flight": {
+            "number": "2481",
+            "iata": "6E2481",
+            "icao": "IGO2481",
+            "codeshared": null
+        },
+        "aircraft": {
+            "registration": "VT-ITK",
+            "iata": "A20N",
+            "icao": "A20N",
+            "icao24": "800BB7"
+        },
+        "live": {
+            "updated": "2022-05-26T07:41:50+00:00",
+            "latitude": 27.56,
+            "longitude": 78.89,
+            "altitude": 11285.2,
+            "direction": 106.64,
+            "speed_horizontal": 879.48,
+            "speed_vertical": 0,
+            "is_ground": false
+        }
+    },
+    {
+        "flight_date": "2022-05-19",
+        "flight_status": "active",
+        "departure": {
+            "airport": "Indira Gandhi International",
+            "timezone": "Asia/Kolkata",
+            "iata": "DEL",
+            "icao": "VIDP",
+            "terminal": "1",
+            "gate": "D5B",
+            "delay": 20,
+            "scheduled": "2022-05-19T15:55:00+00:00",
+            "estimated": "2022-05-19T15:55:00+00:00",
+            "actual": "2022-05-19T16:14:00+00:00",
+            "estimated_runway": "2022-05-19T16:14:00+00:00",
+            "actual_runway": "2022-05-19T16:14:00+00:00"
+        },
+        "arrival": {
+            "airport": "Patna",
+            "timezone": "Asia/Kolkata",
+            "iata": "PAT",
+            "icao": "VEPT",
+            "terminal": "T1 A",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2022-05-19T17:45:00+00:00",
+            "estimated": "2022-05-19T17:45:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "IndiGo",
+            "iata": "6E",
+            "icao": "IGO"
+        },
+        "flight": {
+            "number": "902",
+            "iata": "6E902",
+            "icao": "IGO902",
+            "codeshared": null
+        },
+        "aircraft": {
+            "registration": "VT-IVH",
+            "iata": "A20N",
+            "icao": "A20N",
+            "icao24": "800C91"
+        },
+        "live": {
+            "updated": "2022-05-19T11:27:13+00:00",
+            "latitude": 26.88,
+            "longitude": 80.86,
+            "altitude": 11887.2,
+            "direction": 108.17,
+            "speed_horizontal": 890.784,
+            "speed_vertical": 0,
+            "is_ground": false
+        }
+    },
+    {
+        "flight_date": "2022-05-19",
+        "flight_status": "active",
+        "departure": {
+            "airport": "Indira Gandhi International",
+            "timezone": "Asia/Kolkata",
+            "iata": "DEL",
+            "icao": "VIDP",
+            "terminal": "3",
+            "gate": "44B",
+            "delay": 8,
+            "scheduled": "2022-05-19T07:50:00+00:00",
+            "estimated": "2022-05-19T07:50:00+00:00",
+            "actual": "2022-05-19T07:57:00+00:00",
+            "estimated_runway": "2022-05-19T07:57:00+00:00",
+            "actual_runway": "2022-05-19T07:57:00+00:00"
+        },
+        "arrival": {
+            "airport": "Patna",
+            "timezone": "Asia/Kolkata",
+            "iata": "PAT",
+            "icao": "VEPT",
+            "terminal": "T1 A",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2022-05-19T09:25:00+00:00",
+            "estimated": "2022-05-19T09:25:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "Vistara",
+            "iata": "UK",
+            "icao": "VTI"
+        },
+        "flight": {
+            "number": "717",
+            "iata": "UK717",
+            "icao": "VTI717",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2022-05-15",
+        "flight_status": "active",
+        "departure": {
+            "airport": "Indira Gandhi International",
+            "timezone": "Asia/Kolkata",
+            "iata": "DEL",
+            "icao": "VIDP",
+            "terminal": "T1 D",
+            "gate": "160R",
+            "delay": 47,
+            "scheduled": "2022-05-15T09:35:00+00:00",
+            "estimated": "2022-05-15T09:35:00+00:00",
+            "actual": "2022-05-15T10:21:00+00:00",
+            "estimated_runway": "2022-05-15T10:21:00+00:00",
+            "actual_runway": "2022-05-15T10:21:00+00:00"
+        },
+        "arrival": {
+            "airport": "Patna",
+            "timezone": "Asia/Kolkata",
+            "iata": "PAT",
+            "icao": "VEPT",
+            "terminal": "T1 A",
+            "gate": null,
+            "baggage": null,
+            "delay": 10,
+            "scheduled": "2022-05-15T11:30:00+00:00",
+            "estimated": "2022-05-15T11:30:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "SpiceJet",
+            "iata": "SG",
+            "icao": "SEJ"
+        },
+        "flight": {
+            "number": "724",
+            "iata": "SG724",
+            "icao": "SEJ724",
+            "codeshared": null
+        },
+        "aircraft": {
+            "registration": "VT-SYZ",
+            "iata": "B738",
+            "icao": "B738",
+            "icao24": "800DA2"
+        },
+        "live": {
+            "updated": "2022-05-16T04:28:00+00:00",
+            "latitude": 28.36,
+            "longitude": 77,
+            "altitude": 7421.88,
+            "direction": 114.8,
+            "speed_horizontal": 807.912,
+            "speed_vertical": 19.908,
+            "is_ground": false
+        }
+    },
+    {
+        "flight_date": "2022-05-13",
+        "flight_status": "active",
+        "departure": {
+            "airport": "Indira Gandhi International",
+            "timezone": "Asia/Kolkata",
+            "iata": "DEL",
+            "icao": "VIDP",
+            "terminal": "2",
+            "gate": "214",
+            "delay": 21,
+            "scheduled": "2022-05-13T06:20:00+00:00",
+            "estimated": "2022-05-13T06:20:00+00:00",
+            "actual": "2022-05-13T06:40:00+00:00",
+            "estimated_runway": "2022-05-13T06:40:00+00:00",
+            "actual_runway": "2022-05-13T06:40:00+00:00"
+        },
+        "arrival": {
+            "airport": "Patna",
+            "timezone": "Asia/Kolkata",
+            "iata": "PAT",
+            "icao": "VEPT",
+            "terminal": "3",
+            "gate": null,
+            "baggage": null,
+            "delay": 2,
+            "scheduled": "2022-05-13T07:55:00+00:00",
+            "estimated": "2022-05-13T07:55:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "GoAir",
+            "iata": "G8",
+            "icao": "GOW"
+        },
+        "flight": {
+            "number": "165",
+            "iata": "G8165",
+            "icao": "GOW165",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2022-05-13",
+        "flight_status": "active",
+        "departure": {
+            "airport": "Indira Gandhi International",
+            "timezone": "Asia/Kolkata",
+            "iata": "DEL",
+            "icao": "VIDP",
+            "terminal": "2",
+            "gate": "214",
+            "delay": 21,
+            "scheduled": "2022-05-13T06:20:00+00:00",
+            "estimated": "2022-05-13T06:20:00+00:00",
+            "actual": "2022-05-13T06:40:00+00:00",
+            "estimated_runway": "2022-05-13T06:40:00+00:00",
+            "actual_runway": "2022-05-13T06:40:00+00:00"
+        },
+        "arrival": {
+            "airport": "Patna",
+            "timezone": "Asia/Kolkata",
+            "iata": "PAT",
+            "icao": "VEPT",
+            "terminal": "3",
+            "gate": null,
+            "baggage": null,
+            "delay": 2,
+            "scheduled": "2022-05-13T07:55:00+00:00",
+            "estimated": "2022-05-13T07:55:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "FlexFlight",
+            "iata": "W2",
+            "icao": "FXT"
+        },
+        "flight": {
+            "number": "8926",
+            "iata": "W28926",
+            "icao": "FXT8926",
+            "codeshared": {
+                "airline_name": "goair",
+                "airline_iata": "g8",
+                "airline_icao": "gow",
+                "flight_number": "165",
+                "flight_iata": "g8165",
+                "flight_icao": "gow165"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2022-05-11",
+        "flight_status": "active",
+        "departure": {
+            "airport": "Indira Gandhi International",
+            "timezone": "Asia/Kolkata",
+            "iata": "DEL",
+            "icao": "VIDP",
+            "terminal": "2",
+            "gate": "233",
+            "delay": 3,
+            "scheduled": "2022-05-11T06:20:00+00:00",
+            "estimated": "2022-05-11T06:20:00+00:00",
+            "actual": "2022-05-11T06:22:00+00:00",
+            "estimated_runway": "2022-05-11T06:22:00+00:00",
+            "actual_runway": "2022-05-11T06:22:00+00:00"
+        },
+        "arrival": {
+            "airport": "Patna",
+            "timezone": "Asia/Kolkata",
+            "iata": "PAT",
+            "icao": "VEPT",
+            "terminal": "T3",
+            "gate": null,
+            "baggage": null,
+            "delay": 7,
+            "scheduled": "2022-05-11T07:55:00+00:00",
+            "estimated": "2022-05-11T07:55:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "GoAir",
+            "iata": "G8",
+            "icao": "GOW"
+        },
+        "flight": {
+            "number": "165",
+            "iata": "G8165",
+            "icao": "GOW165",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2022-05-11",
+        "flight_status": "active",
+        "departure": {
+            "airport": "Indira Gandhi International",
+            "timezone": "Asia/Kolkata",
+            "iata": "DEL",
+            "icao": "VIDP",
+            "terminal": "2",
+            "gate": "T20",
+            "delay": 12,
+            "scheduled": "2022-05-11T06:30:00+00:00",
+            "estimated": "2022-05-11T06:30:00+00:00",
+            "actual": "2022-05-11T06:42:00+00:00",
+            "estimated_runway": "2022-05-11T06:42:00+00:00",
+            "actual_runway": "2022-05-11T06:42:00+00:00"
+        },
+        "arrival": {
+            "airport": "Patna",
+            "timezone": "Asia/Kolkata",
+            "iata": "PAT",
+            "icao": "VEPT",
+            "terminal": "T3",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2022-05-11T08:05:00+00:00",
+            "estimated": "2022-05-11T08:05:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "IndiGo",
+            "iata": "6E",
+            "icao": "IGO"
+        },
+        "flight": {
+            "number": "2022",
+            "iata": "6E2022",
+            "icao": "IGO2022",
+            "codeshared": null
+        },
+        "aircraft": {
+            "registration": "VT-IZJ",
+            "iata": "A20N",
+            "icao": "A20N",
+            "icao24": "800D33"
+        },
+        "live": {
+            "updated": "2022-05-12T01:27:56+00:00",
+            "latitude": 27.77,
+            "longitude": 78.28,
+            "altitude": 10035.5,
+            "direction": 119.22,
+            "speed_horizontal": 823.32,
+            "speed_vertical": 12.888,
+            "is_ground": false
+        }
+    },
+    {
+        "flight_date": "2022-05-11",
+        "flight_status": "active",
+        "departure": {
+            "airport": "Indira Gandhi International",
+            "timezone": "Asia/Kolkata",
+            "iata": "DEL",
+            "icao": "VIDP",
+            "terminal": "2",
+            "gate": "201",
+            "delay": 26,
+            "scheduled": "2022-05-11T11:30:00+00:00",
+            "estimated": "2022-05-11T11:30:00+00:00",
+            "actual": "2022-05-11T11:56:00+00:00",
+            "estimated_runway": "2022-05-11T11:56:00+00:00",
+            "actual_runway": "2022-05-11T11:56:00+00:00"
+        },
+        "arrival": {
+            "airport": "Patna",
+            "timezone": "Asia/Kolkata",
+            "iata": "PAT",
+            "icao": "VEPT",
+            "terminal": "T1 A",
+            "gate": null,
+            "baggage": null,
+            "delay": 14,
+            "scheduled": "2022-05-11T13:05:00+00:00",
+            "estimated": "2022-05-11T13:05:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "GoAir",
+            "iata": "G8",
+            "icao": "GOW"
+        },
+        "flight": {
+            "number": "2511",
+            "iata": "G82511",
+            "icao": "GOW2511",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2022-05-11",
+        "flight_status": "active",
+        "departure": {
+            "airport": "Indira Gandhi International",
+            "timezone": "Asia/Kolkata",
+            "iata": "DEL",
+            "icao": "VIDP",
+            "terminal": "2",
+            "gate": "233",
+            "delay": 3,
+            "scheduled": "2022-05-11T06:20:00+00:00",
+            "estimated": "2022-05-11T06:20:00+00:00",
+            "actual": "2022-05-11T06:22:00+00:00",
+            "estimated_runway": "2022-05-11T06:22:00+00:00",
+            "actual_runway": "2022-05-11T06:22:00+00:00"
+        },
+        "arrival": {
+            "airport": "Patna",
+            "timezone": "Asia/Kolkata",
+            "iata": "PAT",
+            "icao": "VEPT",
+            "terminal": "T3",
+            "gate": null,
+            "baggage": null,
+            "delay": 7,
+            "scheduled": "2022-05-11T07:55:00+00:00",
+            "estimated": "2022-05-11T07:55:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "FlexFlight",
+            "iata": "W2",
+            "icao": "FXT"
+        },
+        "flight": {
+            "number": "8926",
+            "iata": "W28926",
+            "icao": "FXT8926",
+            "codeshared": {
+                "airline_name": "goair",
+                "airline_iata": "g8",
+                "airline_icao": "gow",
+                "flight_number": "165",
+                "flight_iata": "g8165",
+                "flight_icao": "gow165"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2022-05-11",
+        "flight_status": "active",
+        "departure": {
+            "airport": "Indira Gandhi International",
+            "timezone": "Asia/Kolkata",
+            "iata": "DEL",
+            "icao": "VIDP",
+            "terminal": "2",
+            "gate": "201",
+            "delay": 26,
+            "scheduled": "2022-05-11T11:30:00+00:00",
+            "estimated": "2022-05-11T11:30:00+00:00",
+            "actual": "2022-05-11T11:56:00+00:00",
+            "estimated_runway": "2022-05-11T11:56:00+00:00",
+            "actual_runway": "2022-05-11T11:56:00+00:00"
+        },
+        "arrival": {
+            "airport": "Patna",
+            "timezone": "Asia/Kolkata",
+            "iata": "PAT",
+            "icao": "VEPT",
+            "terminal": "T1 A",
+            "gate": null,
+            "baggage": null,
+            "delay": 14,
+            "scheduled": "2022-05-11T13:05:00+00:00",
+            "estimated": "2022-05-11T13:05:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "FlexFlight",
+            "iata": "W2",
+            "icao": "FXT"
+        },
+        "flight": {
+            "number": "9211",
+            "iata": "W29211",
+            "icao": "FXT9211",
+            "codeshared": {
+                "airline_name": "goair",
+                "airline_iata": "g8",
+                "airline_icao": "gow",
+                "flight_number": "2511",
+                "flight_iata": "g82511",
+                "flight_icao": "gow2511"
+            }
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2022-04-04",
+        "flight_status": "active",
+        "departure": {
+            "airport": "Indira Gandhi International",
+            "timezone": "Asia/Kolkata",
+            "iata": "DEL",
+            "icao": "VIDP",
+            "terminal": "2",
+            "gate": "208",
+            "delay": 3,
+            "scheduled": "2022-04-04T11:00:00+00:00",
+            "estimated": "2022-04-04T11:00:00+00:00",
+            "actual": "2022-04-04T11:02:00+00:00",
+            "estimated_runway": "2022-04-04T11:02:00+00:00",
+            "actual_runway": "2022-04-04T11:02:00+00:00"
+        },
+        "arrival": {
+            "airport": "Patna",
+            "timezone": "Asia/Kolkata",
+            "iata": "PAT",
+            "icao": "VEPT",
+            "terminal": "T1 A",
+            "gate": null,
+            "baggage": null,
+            "delay": null,
+            "scheduled": "2022-04-04T12:35:00+00:00",
+            "estimated": "2022-04-04T12:35:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "GoAir",
+            "iata": "G8",
+            "icao": "GOW"
+        },
+        "flight": {
+            "number": "2511",
+            "iata": "G82511",
+            "icao": "GOW2511",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    },
+    {
+        "flight_date": "2022-03-16",
+        "flight_status": "active",
+        "departure": {
+            "airport": "Indira Gandhi International",
+            "timezone": "Asia/Kolkata",
+            "iata": "DEL",
+            "icao": "VIDP",
+            "terminal": "3",
+            "gate": "51",
+            "delay": 20,
+            "scheduled": "2022-03-16T12:20:00+00:00",
+            "estimated": "2022-03-16T12:20:00+00:00",
+            "actual": "2022-03-16T12:40:00+00:00",
+            "estimated_runway": "2022-03-16T12:40:00+00:00",
+            "actual_runway": "2022-03-16T12:40:00+00:00"
+        },
+        "arrival": {
+            "airport": "Patna",
+            "timezone": "Asia/Kolkata",
+            "iata": "PAT",
+            "icao": "VEPT",
+            "terminal": "T1 A",
+            "gate": null,
+            "baggage": null,
+            "delay": 5,
+            "scheduled": "2022-03-16T13:50:00+00:00",
+            "estimated": "2022-03-16T13:50:00+00:00",
+            "actual": null,
+            "estimated_runway": null,
+            "actual_runway": null
+        },
+        "airline": {
+            "name": "IndiGo",
+            "iata": "6E",
+            "icao": "IGO"
+        },
+        "flight": {
+            "number": "5336",
+            "iata": "6E5336",
+            "icao": "IGO5336",
+            "codeshared": null
+        },
+        "aircraft": null,
+        "live": null
+    }
+]

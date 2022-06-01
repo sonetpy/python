@@ -1,7 +1,6 @@
 import requests
 import json
 import urllib
-
 print('City Name should be in iata format like Mumbai: BOM, Delhi: DEL')
 dep_iata=input('Departure City: ')
 arr_iata=input('Arrival City: ')
@@ -13,9 +12,6 @@ params = {
     ,'arr_iata': arr_iata
 }
 response = requests.get('https://app.goflightlabs.com/flights',params)
-# You must check response.raise_for_status() or response.status_code before parsing JSON 
-# because the successful call to response.json() does not indicate the success of the request.
-#print(response.status_code)
 json_response = response.json()
 #jet = json.loads(json_response)
 #json.loads take a string as input and returns a dictionary as output.
