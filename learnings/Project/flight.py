@@ -18,7 +18,7 @@ class Reservation:
         self.date_time=date_time
 
     def flight_api():
-        
+        pass
         
 
 def passenger_details():
