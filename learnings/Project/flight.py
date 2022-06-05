@@ -9,23 +9,23 @@ If user enters the keyword "reservation" as command then it should invoke the cl
 '''
 import airlines
 class Reservation:
-    def __init__(self,pax_name,pax_age,pax_sex,from_dest,to_dest,date_time):
-        self.pax_name=pax_name
-        self.pax_age=pax_age
-        self.pax_sex=pax_sex
-        self.from_dest=from_dest
-        self.to_dest=to_dest
-        self.date_time=date_time
-
-    def flight_api():
-        pass
-        
-
+    def __init__(self,pax_name,pax_age,pax_sex,source,destination,date_time):
+        self.pax_name = pax_name
+        self.pax_age = pax_age
+        self.pax_sex = pax_sex
+        self.source = source
+        self.destination = destination
+        self.date_time = date_time
+            
+jet_flights = []
 def passenger_details():
     print('Name: ', res.pax_name)
     print('Age: ', res.pax_age)
-    print(res.from_dest,'-',res.to_dest)
+    print(res.source,'-',res.destination)
     print(res.date_time)
+    jet_flights = airlines.jet(res.source,res.destination)
+    for i in jet_flights:
+        print (i, end="")
 
 def print_details():
     if (res.pax_sex == 'F') or (res.pax_sex == 'f'):
@@ -38,7 +38,11 @@ def print_details():
 if __name__=='__main__':
     print('\n')
     print("Welcome to Bakchod Travel's")
-    print(Reservation.flight_api())
     pax_name=input('Enter Your Name:')
-    res=Reservation(pax_name,'33','M','SEA','JFK','22-09-2022')
+    pax_age=input('Enter your age: ')
+    pax_sex=input('Enter your Sex: ')
+    source=input("Enter Departure City: ")
+    destination=input("Enter Arrival City: ")
+    res=Reservation(pax_name,pax_age,pax_sex,source,destination,'22-09-2022')
+    #print(Reservation.flight_api(self))
     print_details()

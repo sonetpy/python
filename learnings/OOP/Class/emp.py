@@ -7,5 +7,5 @@ class Employee:
         print(f"Employee: {self.name}\nId: {self.id}")
 
     def airlines(self):
-        print("new airlines")
-        
+        airlines = input("enter new airlines")
+        print("new airlines", airlines)
