@@ -36,7 +36,7 @@ print("To get a list of the keys in dictionary, use dict_name.keys()")
 for x in menu_prices:
     print (x)
 
-print("To get a list of the keys in dictionary, use dict_name.keys()")
+print("To get a list of the keys in dictionary, use dict_name.values()")
 for items in menu_prices.values():
     print(items)
 #output

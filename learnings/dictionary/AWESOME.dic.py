@@ -104,4 +104,12 @@ for i in range(5):
 for j in range(len(dic)):
   print(dic[j]['name'])
 
+# Print details of last 2 users
+for k in range(len(dic)):
+  print("\nHe is the last in the list")
+  print(dic[-1], '\n')
+  print("\nHe is the second last in the list")
+  print(dic[-2], '\n')  
+
+
 
