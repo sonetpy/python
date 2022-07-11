@@ -39,10 +39,10 @@ def do_foo(x, y):
     print('foo', x, y)
 def do_bar(s):
     print('bar', s)
-for tag, *args in records:
+for tag, *sonu in records:
     if tag == 'foo':
-        do_foo(*args)
+        do_foo(*sonu)
     elif tag == 'bar':
-        do_bar(*args)
+        do_bar(*sonu)
 
 
