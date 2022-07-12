@@ -1,7 +1,5 @@
 # https://www.programiz.com/article/python-self-why
 
-
-
 # Class and Object
 class Employee:
     company = "yahoo"

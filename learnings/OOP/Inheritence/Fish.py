@@ -3,8 +3,7 @@ https://www.digitalocean.com/community/tutorials/understanding-class-inheritance
 Building a parent class follows the same methodology as building any other class, except we are thinking about what methods the child classes will be able to make use of once we create those.
 """
 class Fish:
-    def __init__(self, first_name, last_name="Fish",
-                 skeleton="bone", eyelids=False):
+    def __init__(self, first_name, last_name="Fish",skeleton="bone", eyelids=False):
         self.first_name = first_name
         self.last_name = last_name
         self.skeleton = skeleton
@@ -52,4 +51,3 @@ casey = Clownfish("Casey")
 print(casey.first_name + " " + casey.last_name)
 casey.swim()
 casey.live_with_anemone()
-
