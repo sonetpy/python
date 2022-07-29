@@ -9,5 +9,11 @@ parameters = {
     "appid": MY_KEY
 }
 response = requests.get(url="https://api.openweathermap.org/data/2.5/onecall", params=parameters)
-pretty_data = json.dumps(response.json(), indent=4)
-print(pretty_data)
+## pretty_data = json.dumps(response.json(), indent=4)
+## print(pretty_data)
+request = requests.get(url="https://api.openweathermap.org/data/2.5/onecall", params=parameters)
+json = request.json()
+print(json["current"]["weather"][0].get('description'))
+print(json["current"]["weather"][0]['description'])
+
+
