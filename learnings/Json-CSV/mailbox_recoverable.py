@@ -50,3 +50,12 @@ merged_df_sorted['Check If more than 150 GB'] = merged_df_sorted['TotalSizeAndRe
 
 # write the merged and sorted dataframe to a new CSV file
 merged_df_sorted.to_csv('merged_file.csv', index=False)
+
+# print any rows with a total size exceeding 150 GB
+bad_rows = merged_df_sorted[merged_df_sorted['Check If more than 150 GB'] == 'BAD']
+
+if not bad_rows.empty:
+    print('The following rows have a total size exceeding 150 GB:')
+    print(bad_rows)
+else:
+    print('No rows have a total size exceeding 150 GB.')
