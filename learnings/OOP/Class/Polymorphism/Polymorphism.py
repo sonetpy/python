@@ -1,3 +1,4 @@
+# Similarly, the same method name can be defined in different classes and subclasses, and the appropriate one will be called depending on the object that invokes it
 class Person(object):
     def eat(self): print("Person - Eat")
 

@@ -17,6 +17,9 @@ class Employee:
     @classmethod
     def from_dash(cls, string):
         return cls(*string.split("-"))
+#In the expression *string.split("-"), the star (*) is a wildcard character. It means that the string can be any value, including the empty string.
+# So, the expression will return a list of all the substrings of the string, separated by the hyphen character (-).
+#For example, if the string is "hello-world", the expression will return the list ["hello", "world"].
 
     @staticmethod
     def printgood(string):

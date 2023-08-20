@@ -1,3 +1,13 @@
+"""
+Python has three types of methods (normal, class, and static).
+It's confusing and sometimes we're wondering why do we need all of them.
+Even, there are people saying we do not need static method at all and recommend not using it.
+
+The normal and class method requires passing in the first argument:
+self for normal method
+cls for class method
+but a static method requires none to be passed
+"""
 class Employee(object):
  
     def __init__(self, name, salary, project_name):
