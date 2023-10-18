@@ -1,3 +1,5 @@
+# To visualize the code use the link https://pythontutor.com/render.html#mode=display
+
 def plus_one(number):
     print (number + 1)
 
@@ -128,13 +130,28 @@ hi, i am created by a function passed as an argument.
 (Pdb)
 '''
 
+# Python code visualizer https://pythontutor.com/render.html#mode=display
+# Define higher order function
+def fun(foo):
+    result = foo('Welcome To AskPython!!')
+    return result
 
-def jersey(india):
-    print(india)
-    return
+# Define function-1
+def fun1(str):
+    return str.lower()
 
-def cricket(kit):
-    team_india = kit("Indian team jersey and kit is BLUE")
-    return team_india
-    
-cricket(jersey)
+# Define function-2
+def fun2(str):
+    return str.upper()
+
+# Pass funtion-1 as an argument
+# to fun() function
+print(fun, fun1)
+
+str1 = fun(fun1)
+print(str1)
+
+# Pass funtion-2 as an argument
+# to fun() function
+str2 = fun(fun2)
+print(str2)
