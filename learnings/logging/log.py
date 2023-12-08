@@ -4,14 +4,14 @@
 # Check learnings\logging\log_at_all_level.py to see logging at all levels
 
 import logging
-logging.debug("A DEBUG Message")
-logging.info("An INFO")
-logging.warning("A WARNING")
-logging.error("An ERROR")
-logging.critical("A message of CRITICAL severity")
+def main() -> None:
+    logging.basicConfig(level=logging.INFO)
 
-print("##########\n")
-name = 'Abhinav'
-logging.error('%s raised an error', name)
-logging.error(f'raised an error by {name}')
+    logging.debug("A DEBUG Message")
+    logging.info("An INFO")
+    logging.warning("A WARNING")
+    logging.error("An ERROR")
+    logging.critical("A message of CRITICAL severity")
 
+if __name__ == "__main__":
+    main()

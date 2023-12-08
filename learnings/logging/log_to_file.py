@@ -3,8 +3,10 @@ import logging
 
 # Create and configure logger
 logging.basicConfig(filename="newfile.log",
-					format='%(asctime)s %(message)s',
-					filemode='w')
+					format='%(asctime)s %(levelname)s %(message)s',
+                    datefmt="%Y-%m-%d %H:%M:%S",
+					filemode='w',
+                    encoding='utf-8')
 
 # Creating an object
 logger = logging.getLogger()

@@ -1,5 +1,5 @@
-2023-09-14 23:13:54,432 Harmless debug Message
-2023-09-14 23:13:54,432 Just an information
-2023-09-14 23:13:54,433 Its a Warning
-2023-09-14 23:13:54,433 Did you try to divide by zero
-2023-09-14 23:13:54,433 Internet is down
+2023-12-04 22:58:34 DEBUG Harmless debug Message
+2023-12-04 22:58:34 INFO Just an information
+2023-12-04 22:58:34 WARNING Its a Warning
+2023-12-04 22:58:34 ERROR Did you try to divide by zero
+2023-12-04 22:58:34 CRITICAL Internet is down
