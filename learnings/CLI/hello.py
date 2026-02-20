@@ -14,3 +14,4 @@ first = args.fname.capitalize()
 last = args.lname.capitalize()
 
 print(f"hello {first} {last}!")
+# cli command: python mycli.py --fname john --lname doe
